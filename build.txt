@@ -1,0 +1,3 @@
+displayName = Clash Royale Mod
+author = LumpyWiggles
+version = 0.1
