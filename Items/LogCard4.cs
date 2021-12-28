@@ -12,6 +12,7 @@ namespace ClashRoyaleMod.Items
 {
     class LogCard4 : ModItem
     {
+        public override string Texture => "ClashRoyaleMod/Items/LogCard";
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("The Log (LVL 4)");
