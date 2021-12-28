@@ -99,6 +99,10 @@ namespace ClashRoyaleMod.NPCs
         public override void SetupShop(Chest shop, ref int nextSlot)
         {
             shop.item[nextSlot].SetDefaults(ModContent.ItemType<LegendaryChest>());
+            nextSlot++;
+            shop.item[nextSlot].SetDefaults(ModContent.ItemType<KingsCannon>());
+            nextSlot++;
+
         }
         public override bool CanGoToStatue(bool toKingStatue)
         {
