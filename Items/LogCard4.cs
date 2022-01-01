@@ -35,6 +35,7 @@ namespace ClashRoyaleMod.Items
             item.shoot = ModContent.ProjectileType<TheLog>();
             item.shootSpeed = 10;
             item.UseSound = SoundID.Item19;
+            item.knockBack = 8; ;
         }
         public override void AddRecipes()
         {
